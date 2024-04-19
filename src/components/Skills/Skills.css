@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 30px;
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  color: white;
+  overflow: hidden;
+}
+.container h1 {
+  font-size: 75px;
+  color: orange;
+}
+@media (max-width: 738px) {
+  .container h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+}
+.container .skills {
+  width: 75%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+@media (max-width: 738px) {
+  .container .skills {
+    width: 90%;
+    height: 50%;
+    gap: 10px;
+  }
+}
+.container .skills .skill {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+@media (max-width: 738px) {
+  .container .skills .skill {
+    width: 55%;
+    gap: 1px;
+  }
+}
+.container .skills .skill .logo {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+@media (max-width: 738px) {
+  .container .skills .skill .logo {
+    gap: 2px;
+  }
+}
+.container .skills .skill .logo .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #edf2f8;
+  border-radius: 50%;
+}
+@media (max-width: 738px) {
+  .container .skills .skill .logo .image {
+    width: 35px;
+    height: 35px;
+  }
+}
+.container .skills .skill .logo .image img {
+  width: 50%;
+  height: 50%;
+}
+.container .skills .skill .logo .image:hover {
+  box-shadow: 0 0 25px #fef4f5;
+}
+.container .skills .skill .logo h4 {
+  font-size: 13px;
+  font-weight: 400;
+}
+@media (max-width: 738px) {
+  .container .skills .skill .logo h4 {
+    font-size: 8px;
+  }
+}
+.container .skills .experience {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.container .skills .experience .company {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+@media (max-width: 738px) {
+  .container .skills .experience .company {
+    gap: 5px;
+  }
+}
+.container .skills .experience .company img {
+  width: 30%;
+  height: 30%;
+  border-radius: 5px;
+}
+@media (max-width: 738px) {
+  .container .skills .experience .company img {
+    width: 15%;
+    height: 15%;
+  }
+}
+.container .skills .experience .company .information h3 {
+  font-size: 22px;
+}
+@media (max-width: 738px) {
+  .container .skills .experience .company .information h3 {
+    font-size: 12px;
+  }
+}
+.container .skills .experience .company .information h4 {
+  font-weight: 500;
+}
+@media (max-width: 738px) {
+  .container .skills .experience .company .information h4 {
+    font-size: 10px;
+  }
+}
+.container .skills .experience .company .information p {
+  color: rgb(192, 192, 192);
+  font-weight: 300;
+  font-size: 15px;
+}
+@media (max-width: 738px) {
+  .container .skills .experience .company .information p {
+    font-size: 8px;
+  }
+}/*# sourceMappingURL=Skills.css.map */

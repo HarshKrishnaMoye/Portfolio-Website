@@ -1,0 +1,94 @@
+@import "../../App.scss";
+.container1 {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #111132, #0c0c1d);
+  overflow: hidden;
+
+  .wrapper1 {
+    max-width: 1366px;
+    height: 100%;
+    margin: 0px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    z-index: 10;
+
+    @include mobile {
+      align-items: center;
+      text-align: center;
+      margin: auto;
+      width: 100%;
+      height: 90%;
+      gap: 55px;
+    }
+
+    h1 {
+      font-size: 75px;
+      color: orange;
+      z-index: 1;
+
+      @include mobile {
+        font-size: 40px;
+      }
+    }
+    p {
+      font-size: 24px;
+      color: white;
+      z-index: 1;
+
+      @include mobile {
+        font-size: 20px;
+      }
+    }
+
+    .button-container {
+      display: flex;
+      gap: 150px;
+      z-index: 10;
+
+      @include mobile {
+        gap: 50px;
+      }
+
+      a {
+        
+
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: white;
+          border: none;
+          border-radius: 10px;
+          padding: 10px;
+          width: 150px;
+          cursor: pointer;
+          font-size: large;
+          z-index: 1;
+          gap: 10px;
+
+          @include mobile {
+            width: 120px;
+            gap: 5px;
+          }
+
+          img {
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
+  .stars {
+    width: 100%;
+    height: 100%;
+    background-image: url("/stars.png");
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+  }
+}

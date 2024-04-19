@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.project {
+  position: relative;
+  background: linear-gradient(180deg, #111132, #0c0c1d);
+}
+.project .progress {
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding-top: 30px;
+  text-align: center;
+  color: orange;
+  font-size: 36px;
+  z-index: 5;
+}
+@media (max-width: 738px) {
+  .project .progress {
+    padding-top: calc(100vh - 100px);
+    font-size: 24px;
+  }
+}
+.project .progress .progressBar {
+  height: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.project .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(180deg, #111132, #0c0c1d);
+}
+.project .container .wrapper {
+  max-width: 1366px;
+  height: 100%;
+  margin: 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+@media (max-width: 738px) {
+  .project .container .wrapper {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.project .container .wrapper .vidContainer {
+  flex: 1;
+  height: 50%;
+  border: 4px solid #eaeaea;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+@media (max-width: 738px) {
+  .project .container .wrapper .vidContainer {
+    width: 90%;
+    max-height: 300px;
+  }
+}
+.project .container .wrapper .vidContainer video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 738px) {
+  .project .container .wrapper .vidContainer video {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+.project .container .wrapper .textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (max-width: 738px) {
+  .project .container .wrapper .textContainer {
+    width: 90%;
+    transform: none !important;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+  }
+}
+.project .container .wrapper .textContainer h2 {
+  font-size: 72px;
+}
+@media (max-width: 738px) {
+  .project .container .wrapper .textContainer h2 {
+    font-size: 36px;
+  }
+}
+.project .container .wrapper .textContainer p {
+  color: gray;
+  font-size: 20px;
+}
+@media (max-width: 738px) {
+  .project .container .wrapper .textContainer p {
+    font-size: 16px;
+  }
+}
+.project .container .wrapper .textContainer .buttons {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 738px) {
+  .project .container .wrapper .textContainer .buttons {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+.project .container .wrapper .textContainer button {
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+@media (max-width: 738px) {
+  .project .container .wrapper .textContainer button {
+    width: 200px;
+  }
+}/*# sourceMappingURL=Project.css.map */

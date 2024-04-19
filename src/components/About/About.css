@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.about {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #111132, #0c0c1d);
+  overflow: hidden;
+}
+.about .wrapper {
+  max-width: 1366px;
+  height: 100%;
+  margin: 0px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+@media (max-width: 738px) {
+  .about .wrapper {
+    margin: auto;
+    width: 88%;
+    height: 100%;
+  }
+}
+.about .wrapper h1 {
+  font-size: 75px;
+  color: orange;
+}
+@media (max-width: 738px) {
+  .about .wrapper h1 {
+    font-size: 50px;
+  }
+}
+.about .wrapper .textContainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.about .wrapper .textContainer1 h2 {
+  font-size: 42px;
+  font-weight: 500;
+}
+@media (max-width: 738px) {
+  .about .wrapper .textContainer1 h2 {
+    font-size: 25px;
+  }
+}
+.about .wrapper .textContainer1 p {
+  font-size: 22px;
+}
+@media (max-width: 738px) {
+  .about .wrapper .textContainer1 p {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=About.css.map */

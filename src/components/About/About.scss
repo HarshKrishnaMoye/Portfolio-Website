@@ -1,0 +1,58 @@
+@import '../../App.scss';
+
+.about{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg,#111132,#0c0c1d);
+    overflow: hidden;
+
+    .wrapper{
+        max-width: 1366px;
+        height: 100%;
+        margin: 0px 150px;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:50px;
+
+        @include mobile{
+            margin: auto;
+            width: 88%;
+            height: 100%;
+        }
+
+
+        h1{
+            font-size: 75px; 
+            color: orange; 
+            
+            @include mobile{
+                font-size: 50px;
+            }
+        }
+
+        .textContainer1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap:30px;
+
+            h2{
+                font-size: 42px; 
+                font-weight: 500;
+                @include mobile{
+                    font-size: 25px;
+                }
+            }
+            p{
+                font-size: 22px;
+                @include mobile{
+                    font-size: 12px;
+                }
+
+            }
+        }
+    }
+}

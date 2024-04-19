@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.container1 {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #111132, #0c0c1d);
+  overflow: hidden;
+}
+.container1 .wrapper1 {
+  max-width: 1366px;
+  height: 100%;
+  margin: 0px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  z-index: 10;
+}
+@media (max-width: 738px) {
+  .container1 .wrapper1 {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 90%;
+    gap: 55px;
+  }
+}
+.container1 .wrapper1 h1 {
+  font-size: 75px;
+  color: orange;
+  z-index: 1;
+}
+@media (max-width: 738px) {
+  .container1 .wrapper1 h1 {
+    font-size: 40px;
+  }
+}
+.container1 .wrapper1 p {
+  font-size: 24px;
+  color: white;
+  z-index: 1;
+}
+@media (max-width: 738px) {
+  .container1 .wrapper1 p {
+    font-size: 20px;
+  }
+}
+.container1 .wrapper1 .button-container {
+  display: flex;
+  gap: 150px;
+  z-index: 10;
+}
+@media (max-width: 738px) {
+  .container1 .wrapper1 .button-container {
+    gap: 50px;
+  }
+}
+.container1 .wrapper1 .button-container a button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+  font-size: large;
+  z-index: 1;
+  gap: 10px;
+}
+@media (max-width: 738px) {
+  .container1 .wrapper1 .button-container a button {
+    width: 120px;
+    gap: 5px;
+  }
+}
+.container1 .wrapper1 .button-container a button img {
+  width: 25px;
+  height: 25px;
+}
+.container1 .stars {
+  width: 100%;
+  height: 100%;
+  background-image: url("/stars.png");
+  background-size: cover;
+  background-position: bottom;
+  position: absolute;
+}/*# sourceMappingURL=Reference.css.map */
