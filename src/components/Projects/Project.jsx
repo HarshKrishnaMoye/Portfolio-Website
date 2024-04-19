@@ -11,7 +11,7 @@ const items =[
     description : "Introducing my Disney Plus-inspired streaming platform clone, crafted with ReactJS, CSS, Redux, Firebase, and Google Authentication. Enjoy seamless entertainment on any device with its mobile-responsive design. Dive into a vast content library authenticated via Google. Welcome to your new go-to for endless family-friendly fun!",
     technologies:"ReactJS • CSS • Redux • Firebase • Google Authentication",
     demo : "",
-    code : "https://github.com/HarshKrishnaMoye",
+    code : "https://github.com/HarshKrishnaMoye/DisneyPlus-Clone",
     },
 
     {
