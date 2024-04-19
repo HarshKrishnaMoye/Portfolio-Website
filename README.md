@@ -30,7 +30,7 @@ I'm Harsh Krishna Moye, a Certified Meta® Front-end Developer, JavaScript Devel
 1. Clone the repository
 
 ```
-git clone https://github.com/harshm
+[git clone https://github.com/harshm](https://github.com/HarshKrishnaMoye/Portfolio-Website.git)
 ```
 
 2. Install dependencies
