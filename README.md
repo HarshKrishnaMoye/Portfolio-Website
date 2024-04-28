@@ -1,3 +1,4 @@
+
 # Harsh Krishna Moye's Portfolio Website
 
 This is Harsh Krishna Moye's portfolio website, showcasing projects, skills, and contact information. It is built using Vite React, Framer Motion for animations, SCSS for styling, and EmailJS API for handling contact form submissions.
@@ -29,7 +30,11 @@ I'm Harsh Krishna Moye, a Certified Meta® Front-end Developer, JavaScript Devel
 1. Clone the repository
 
 ```
+<<<<<<< HEAD
 git clone https://github.com/harshm
+=======
+[git clone https://github.com/harshm](https://github.com/HarshKrishnaMoye/Portfolio-Website.git)
+>>>>>>> 6007b974548115c8df1fda5fb9e31e784b36dc69
 ```
 
 2. Install dependencies
