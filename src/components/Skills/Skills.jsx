@@ -32,21 +32,21 @@ const Skills = () => {
         <motion.div variants={variants} className="skill">
           <div className="logo">
             <div className="image">
-              <img src="src/components/Skills/Logo/html.png" alt="HTML5" />
+              <img src="/html.png" alt="HTML5" />
             </div>
             <h4>HTML5</h4>
           </div>
 
           <div className="logo">
             <div className="image">
-              <img src="src/components/Skills/Logo/css.png" alt="CSS3" />
+              <img src="/css.png" alt="CSS3" />
             </div>
             <h4>CSS3</h4>
           </div>
 
           <div className="logo">
             <div className="image">
-              <img src="src/components/Skills/Logo/sass.png" alt="SASS" />
+              <img src="/sass.png" alt="SASS" />
             </div>
             <h4>Sass</h4>
           </div>
@@ -54,7 +54,7 @@ const Skills = () => {
           <div className="logo">
             <div className="image">
               <img
-                src="src/components/Skills/Logo/bootstrap.png"
+                src="/bootstrap.png"
                 alt="Bootstrap"
               />
             </div>
@@ -64,7 +64,7 @@ const Skills = () => {
           <div className="logo">
             <div className="image">
               <img
-                src="src/components/Skills/Logo/tailwind-css.png"
+                src="/tailwind-css.png"
                 alt="Tailwind"
               />
             </div>
@@ -74,7 +74,7 @@ const Skills = () => {
           <div className="logo">
             <div className="image">
               <img
-                src="src/components/Skills/Logo/javascript.png"
+                src="/javascript.png"
                 alt="Javascript"
               />
             </div>
@@ -83,21 +83,21 @@ const Skills = () => {
 
           <div className="logo">
             <div className="image">
-              <img src="src/components/Skills/Logo/react.png" alt="React JS" />
+              <img src="/react.png" alt="React JS" />
             </div>
             <h4>React JS</h4>
           </div>
 
           <div className="logo">
             <div className="image">
-              <img src="src/components/Skills/Logo/redux.png" alt="Redux" />
+              <img src="/redux.png" alt="Redux" />
             </div>
             <h4>Redux</h4>
           </div>
 
           <div className="logo">
             <div className="image">
-              <img src="src/components/Skills/Logo/next-js.png" alt="Next JS" />
+              <img src="/next-js.png" alt="Next JS" />
             </div>
             <h4>Next JS</h4>
           </div>
@@ -106,7 +106,7 @@ const Skills = () => {
           <div className="logo">
             <div className="image">
               <img
-                src="src/components/Skills/Logo/framer-motion.png"
+                src="/framer-motion.png"
                 alt="Framer Motion"
               />
             </div>
@@ -115,42 +115,42 @@ const Skills = () => {
 
           <div className="logo">
             <div className="image">
-              <img src="src/components/Skills/Logo/node.png" alt="Node JS" />
+              <img src="/node.png" alt="Node JS" />
             </div>
             <h4>Node JS</h4>
           </div>
 
           <div className="logo">
             <div className="image">
-              <img src="src/components/Skills/Logo/express.png" alt="Express JS" />
+              <img src="/express.png" alt="Express JS" />
             </div>
             <h4>Express JS</h4>
           </div>
 
           <div className="logo">
             <div className="image">
-              <img src="src/components/Skills/Logo/mongodb.png" alt="MongoDB" />
+              <img src="/mongodb.png" alt="MongoDB" />
             </div>
             <h4>MongoDB</h4>
           </div>
 
           <div className="logo">
             <div className="image">
-              <img src="src/components/Skills/Logo/figma.png" alt="Figma" />
+              <img src="/figma.png" alt="Figma" />
             </div>
             <h4>Figma</h4>
           </div>
 
           <div className="logo">
             <div className="image">
-              <img src="src/components/Skills/Logo/git.png" alt="Git" />
+              <img src="/git.png" alt="Git" />
             </div>
             <h4>Git</h4>
           </div>
 
           <div className="logo">
             <div className="image">
-              <img src="src/components/Skills/Logo/java.png" alt="JAVA" />
+              <img src="/java.png" alt="JAVA" />
             </div>
             <h4>JAVA</h4>
           </div>
@@ -161,7 +161,7 @@ const Skills = () => {
         <motion.div variants={variants} className="experience">
           <div className="company">
             <img
-              src="src/components/Skills/Logo/persistent_systems_logo.jpeg"
+              src="/persistent_systems_logo.jpeg"
               alt="Persistent Systems"
             />
             <div className="information">
@@ -184,7 +184,7 @@ const Skills = () => {
 
           <div className="company">
             <img
-              src="src/components/Skills/Logo/hexcoderz_logo.jpeg"
+              src="/hexcoderz_logo.jpeg"
               alt="Hexcoderz"
             />
             <div className="information">
