@@ -14,7 +14,7 @@ const items =[
     video : video1 ,
     description : "Introducing my Disney Plus-inspired streaming platform clone, crafted with ReactJS, CSS, Redux, Firebase, and Google Authentication. Enjoy seamless entertainment on any device with its mobile-responsive design. Dive into a vast content library authenticated via Google. Welcome to your new go-to for endless family-friendly fun!",
     technologies:"ReactJS • CSS3 • Redux • Firebase • Google Authentication",
-    demo : "",
+    demo : "https://disney-plus-clone-one-phi.vercel.app/",
     code : "https://github.com/HarshKrishnaMoye/DisneyPlus-Clone",
     },
 
@@ -24,7 +24,7 @@ const items =[
         video : video2 ,
         description : "Introducing my React Admin Dashboard project! It's modern and feature-rich, built with ReactJS, Tailwind CSS, and Syncfusion. The dashboard includes one Dashboard, Three Pages, Four Apps, and fully functional Syncfusion charts for powerful web applications",
         technologies:"ReactJS • Tailwind CSS • Syncfusion",
-        demo : "",
+        demo : "https://shop-cart-lyart.vercel.app/",
         code : "https://github.com/HarshKrishnaMoye/Shop-Cart",
         },
         
@@ -34,7 +34,7 @@ const items =[
             video : video3 ,
             description : "Welcome to News Insight, a news application built with ReactJS, CSS, and the News API! News Insight allows you to stay updated with the latest news from various sources around the world",
             technologies:"ReactJS • CSS3 • News API",
-            demo : "",
+            demo : "https://news-insight-tau.vercel.app/",
             code : "https://github.com/HarshKrishnaMoye/News-Insight",
             },
 
@@ -44,7 +44,7 @@ const items =[
                 video : video4 ,
                 description : "Welcome to the Spotify Clone project! This is a fully functional music streaming application inspired by Spotify, built with HTML, CSS, and JavaScript. The application provides access to various libraries of songs, allowing users to play, pause, skip tracks, adjust volume, and mute songs",
                 technologies:"HTML5 • CSS3 • Javascript",
-                demo : "",
+                demo : "https://spotify-clone-azure-psi.vercel.app/",
                 code : "https://github.com/HarshKrishnaMoye/Spotify-Clone",
                 },
 ];
