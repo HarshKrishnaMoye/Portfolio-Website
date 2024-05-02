@@ -2,6 +2,10 @@ import React, { useRef } from 'react'
 import './Project.scss'
 import {motion , useScroll ,useSpring ,useTransform} from 'framer-motion'
 import video1 from "/Disney+Video.mp4";
+import video2 from "/ShopCart.mp4";
+import video3 from "/NewsInsight.mp4";
+import video4 from "/SpotifyClone.mp4";
+
 
 const items =[
     {
@@ -9,39 +13,39 @@ const items =[
     title : "Disney+ Clone",
     video : video1 ,
     description : "Introducing my Disney Plus-inspired streaming platform clone, crafted with ReactJS, CSS, Redux, Firebase, and Google Authentication. Enjoy seamless entertainment on any device with its mobile-responsive design. Dive into a vast content library authenticated via Google. Welcome to your new go-to for endless family-friendly fun!",
-    technologies:"ReactJS • CSS • Redux • Firebase • Google Authentication",
+    technologies:"ReactJS • CSS3 • Redux • Firebase • Google Authentication",
     demo : "",
     code : "https://github.com/HarshKrishnaMoye/DisneyPlus-Clone",
     },
 
     {
         id:2,
-        title : "Project 2",
-        video : "https://images.pexels.com/photos/1181325/pexels-photo-1181325.jpeg?auto=compress&cs=tinysrgb&w=800" ,
-        description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero eveniet, ad recusandae unde esse impedit in atque repellat adipisci saepe maxime minus dicta, eum, expedita aliquid ea molestiae. Consequuntur, expedita.",
-        technologies:"",
+        title : "Shop Cart",
+        video : video2 ,
+        description : "Introducing my React Admin Dashboard project! It's modern and feature-rich, built with ReactJS, Tailwind CSS, and Syncfusion. The dashboard includes one Dashboard, Three Pages, Four Apps, and fully functional Syncfusion charts for powerful web applications",
+        technologies:"ReactJS • Tailwind CSS • Syncfusion",
         demo : "",
-        code : "",
+        code : "https://github.com/HarshKrishnaMoye/Shop-Cart",
         },
-
+        
         {
             id:3,
-            title : "Project 3",
-            video : "https://images.pexels.com/photos/1181325/pexels-photo-1181325.jpeg?auto=compress&cs=tinysrgb&w=800" ,
-            description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero eveniet, ad recusandae unde esse impedit in atque repellat adipisci saepe maxime minus dicta, eum, expedita aliquid ea molestiae. Consequuntur, expedita.",
-            technologies:"",
+            title : "News Insight",
+            video : video3 ,
+            description : "Welcome to News Insight, a news application built with ReactJS, CSS, and the News API! News Insight allows you to stay updated with the latest news from various sources around the world",
+            technologies:"ReactJS • CSS3 • News API",
             demo : "",
-            code : "",
+            code : "https://github.com/HarshKrishnaMoye/News-Insight",
             },
 
             {
                 id:4,
-                title : "Project 4",
-                video : "https://images.pexels.com/photos/1181325/pexels-photo-1181325.jpeg?auto=compress&cs=tinysrgb&w=800" ,
-                description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero eveniet, ad recusandae unde esse impedit in atque repellat adipisci saepe maxime minus dicta, eum, expedita aliquid ea molestiae. Consequuntur, expedita.",
-                technologies:"",
+                title : "Spotify Clone",
+                video : video4 ,
+                description : "Welcome to the Spotify Clone project! This is a fully functional music streaming application inspired by Spotify, built with HTML, CSS, and JavaScript. The application provides access to various libraries of songs, allowing users to play, pause, skip tracks, adjust volume, and mute songs",
+                technologies:"HTML5 • CSS3 • Javascript",
                 demo : "",
-                code : "",
+                code : "https://github.com/HarshKrishnaMoye/Spotify-Clone",
                 },
 ];
 
