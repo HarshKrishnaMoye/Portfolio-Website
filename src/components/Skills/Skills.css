@@ -131,6 +131,9 @@ section {
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  overflow-y: auto;
+  scrollbar-color: #ffffff #ffffff;
+  padding-right: 20px;
 }
 .container .skills .experience .company {
   display: flex;
@@ -144,8 +147,8 @@ section {
   }
 }
 .container .skills .experience .company img {
-  width: 15%;
-  height: 30%;
+  width: 70px;
+  height: 70px;
   border-radius: 5px;
 }
 @media (max-width: 738px) {
@@ -178,5 +181,14 @@ section {
 @media (max-width: 738px) {
   .container .skills .experience .company .information p {
     font-size: 8px;
+  }
+}
+.container .scroll {
+  position: absolute;
+  right: 55px;
+}
+@media (max-width: 738px) {
+  .container .scroll {
+    display: none;
   }
 }/*# sourceMappingURL=Skills.css.map */

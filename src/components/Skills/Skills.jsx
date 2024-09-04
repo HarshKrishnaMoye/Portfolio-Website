@@ -17,6 +17,29 @@ const variants = {
   },
 };
 
+const textVariants = {
+  initial: {
+    x: -500,
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      duration: 1,
+      staggerChildren: 0.1,
+    },
+  },
+  scrollButton: {
+    opacity: 0,
+    y: 10,
+    transition: {
+      duration: 2,
+      repeat: Infinity,
+    },
+  },
+};
+
 const Skills = () => {
   const ref = useRef();
   return (
@@ -53,30 +76,21 @@ const Skills = () => {
 
           <div className="logo">
             <div className="image">
-              <img
-                src="/bootstrap.png"
-                alt="Bootstrap"
-              />
+              <img src="/bootstrap.png" alt="Bootstrap" />
             </div>
             <h4>Bootstrap</h4>
           </div>
 
           <div className="logo">
             <div className="image">
-              <img
-                src="/tailwind-css.png"
-                alt="Tailwind"
-              />
+              <img src="/tailwind-css.png" alt="Tailwind" />
             </div>
             <h4>Tailwind</h4>
           </div>
 
           <div className="logo">
             <div className="image">
-              <img
-                src="/javascript.png"
-                alt="Javascript"
-              />
+              <img src="/javascript.png" alt="Javascript" />
             </div>
             <h4>Javascript</h4>
           </div>
@@ -102,13 +116,9 @@ const Skills = () => {
             <h4>Next JS</h4>
           </div>
 
-
           <div className="logo">
             <div className="image">
-              <img
-                src="/framer-motion.png"
-                alt="Framer Motion"
-              />
+              <img src="/framer-motion.png" alt="Framer Motion" />
             </div>
             <h4>Framer Motion</h4>
           </div>
@@ -154,16 +164,41 @@ const Skills = () => {
             </div>
             <h4>JAVA</h4>
           </div>
-
-          
         </motion.div>
 
         <motion.div variants={variants} className="experience">
           <div className="company">
-            <img
-              src="/persistent_systems_logo.jpeg"
-              alt="Persistent Systems"
-            />
+            <img src="/Sj_Innovation_Logo.jpeg" alt="SJ Innovation" />
+            <div className="information">
+              <h3>Frontend Developer Intern</h3>
+              <h4>SJ Innovation</h4>
+              <p>Jun 2024 - Oct 2024 · 5 months</p>
+              <p>Goa, India</p>
+              <p>
+                • Worked on content migration for a popular eCommerce site,
+                migrating multiple product and generic pages from Drupal to
+                Contentful — a modern headless CMS known for its flexibility and
+                scalability. The site’s frontend was built with Next.js, and the
+                backend utilized Contentful.
+              </p>
+              <p>
+                • Contributed to the frontend of a company project using
+                React.js and Tailwind CSS, building and optimizing user
+                interfaces for a seamless, responsive experience across all
+                devices. Collaborated closely with design and backend teams for
+                smooth integration.
+              </p>
+              <p>
+                • Contributed to an internal company product built with the MERN
+                stack, designed for device allocation within the company. This
+                tool included features such as device history, software history,
+                and more, streamlining the management of company assets.
+              </p>
+            </div>
+          </div>
+
+          <div className="company">
+            <img src="/persistent_systems_logo.jpeg" alt="Persistent Systems" />
             <div className="information">
               <h3>Software Development Intern</h3>
               <h4>Persistent Systems</h4>
@@ -183,12 +218,9 @@ const Skills = () => {
           </div>
 
           <div className="company">
-            <img
-              src="/hexcoderz_logo.jpeg"
-              alt="Hexcoderz"
-            />
+            <img src="/hexcoderz_logo.jpeg" alt="Hexcoderz" />
             <div className="information">
-              <h3>Hexcoderz Intern</h3>
+              <h3>UX UI Intern</h3>
               <h4>Hexcoderz · Internship</h4>
               <p>Jul 2021 - Oct 2021 · 4 months</p>
               <p>Goa, India </p>
@@ -203,6 +235,13 @@ const Skills = () => {
             </div>
           </div>
         </motion.div>
+        <motion.img
+          className="scroll"
+          variants={textVariants}
+          animate="scrollButton"
+          src="/scroll.png"
+          alt="scroll"
+        />
       </motion.div>
     </motion.div>
   );

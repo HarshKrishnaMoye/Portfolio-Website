@@ -1,168 +1,167 @@
-@import '../../App.scss';
+@import "../../App.scss";
 
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 30px;
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  color: white;
+  overflow: hidden;
 
-.container{
-    width: 100%;
-    height: 100%;
-    position: relative;
+  h1 {
+    font-size: 75px;
+    color: orange;
+    @include mobile {
+      font-size: 60px;
+      text-align: center;
+    }
+  }
+
+  .skills {
+    width: 75%;
+    height: 70%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    position: relative;
-    gap: 30px;
-    background: linear-gradient(180deg, #0c0c1d , #111132);
-    color:white;
-    overflow: hidden;
+    gap: 70px;
 
-    h1{
-        font-size: 75px; 
-        color: orange;   
-        @include mobile{
-            font-size: 60px;
-            text-align: center;
-        }
+    @include mobile {
+      width: 90%;
+      height: 50%;
+      gap: 10px;
     }
 
+    .skill {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
 
-    .skills{
-        width: 75%;
-        height: 70%;
+      @include mobile {
+        width: 55%;
+        gap: 1px;
+      }
+
+      .logo {
+        margin: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        @include mobile {
+          gap: 2px;
+        }
+
+        .image {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 80px;
+          height: 80px;
+          background-color: #edf2f8;
+          border-radius: 50%;
+
+          @include mobile {
+            width: 35px;
+            height: 35px;
+          }
+
+          img {
+            width: 50%;
+            height: 50%;
+          }
+
+          &:hover {
+            box-shadow: 0 0 25px #fef4f5;
+          }
+        }
+        h4 {
+          font-size: 13px;
+          font-weight: 400;
+
+          @include mobile {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+
+    .experience {
+      width: 45%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      overflow-y: auto;
+      scrollbar-color: #ffffff #ffffff;
+      padding-right: 20px;
+
+      .company {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap:70px;
+        gap: 15px;
+        margin-top: 15px;
 
-        @include mobile{
-            width:90%;
-            height: 50%;
-            gap:10px;
-         }
-
-        .skill{
-            width:50%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap:20px;
-
-            @include mobile{
-                width:55%;
-                gap:1px;
-             }
-
-           
-
-            .logo{
-                margin:8px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap:5px;
-
-                @include mobile{
-                    gap:2px;
-                 }
-
-                .image{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 80px;
-                    height: 80px;
-                    background-color: #edf2f8;
-                    border-radius: 50%;
-
-                    @include mobile{
-                        width: 35px;
-                        height: 35px;
-                     }
-
-                    img{
-                        width: 50%;
-                        height: 50%;
-                    }
-
-                    &:hover{
-                        box-shadow: 0 0 25px #fef4f5;
-                    }
-                }
-                h4{
-                    font-size: 13px;
-                    font-weight: 400;
-
-                    @include mobile{
-                        font-size: 8px;
-                     }
-                }
-            }
+        @include mobile {
+          gap: 5px;
         }
 
-        .experience{
-            width:45%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap:40px;
+        img {
+          width: 70px;
+          height: 70px;
+          border-radius: 5px;
 
-
-            .company{
-                display: flex;
-                flex-direction: row;
-                gap:15px;
-                margin-top: 15px;
-
-                @include mobile{
-                    gap:5px;
-                }
-
-                img{
-                    width: 15%;
-                    height:30%;
-                    border-radius: 5px;
-
-                    @include mobile{
-                        width: 15%;
-                        height: 15%;
-                    }
-
-                    
-                }
-                .information{
-
-                    h3{
-                        font-size: 22px;
-                        @include mobile{
-                            font-size: 12px;
-                        }
-                    }
-    
-                    h4{
-                        font-weight: 500;
-
-                        @include mobile{
-                            font-size: 10px;
-                        }
-                    }
-                    p{
-                        color: rgb(192, 192, 192);
-                        font-weight: 300;
-                        font-size: 15px;
-                        @include mobile{
-                            font-size: 8px;
-                        }
-                    }
-                }
-            }
-
-
+          @include mobile {
+            width: 15%;
+            height: 15%;
+          }
         }
+        .information {
+          h3 {
+            font-size: 22px;
+            @include mobile {
+              font-size: 12px;
+            }
+          }
 
+          h4 {
+            font-weight: 500;
+
+            @include mobile {
+              font-size: 10px;
+            }
+          }
+          p {
+            color: rgb(192, 192, 192);
+            font-weight: 300;
+            font-size: 15px;
+            @include mobile {
+              font-size: 8px;
+            }
+          }
+        }
+      }
     }
+  }
+  .scroll {
+    position: absolute;
+    right: 55px;
 
+    @include mobile {
+      display: none;
+    }
+  }
 }
